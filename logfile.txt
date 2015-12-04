@@ -1,0 +1,24 @@
+TIMESTAMP: 2015-07-31 01:24:13
+delete from queens2 where id=647
+
+TIMESTAMP: 2015-07-31 01:24:25
+insert into queens2 values(647, 'Multi-Family', '40-32 205th ave', 'Bayside', 'NY', '11361', 1299000.0, 4, 0.5, '2900', '1960', 1, 1, 'Active', 'Keller Williams Rlty Landmark')
+
+TIMESTAMP: 2015-07-31 01:24:42
+update queens2 set Type='Multi-Family' , Address='40-32 202nd ave' , City='Bayside' , State='NY' , Zip='11361' , Price=1299000.0 , Beds=4 , Baths=0.5 , SQFT=2900 , Year_built=1960 , Parking_spot=1 , Days_on_market=1 , Status='Active' , Agency='Keller Williams Rlty Landmark'  where id=645
+
+TIMESTAMP: 2015-07-31 01:24:48
+delete from queens2 where id=644
+
+TIMESTAMP: 2015-07-31 01:24:51
+delete from queens2 where id=638
+
+TIMESTAMP: 2015-07-31 01:28:46
+delete from queens2 where id=630
+
+TIMESTAMP: 2015-07-31 01:28:51
+delete from queens2 where id=627
+
+TIMESTAMP: 2015-07-31 01:29:07
+update queens2 set Type='Condo/Coop' , Address='50 ave' , City='sss' , State='NY' , Zip='11234' , Price=222.0 , Beds=0 , Baths=0.5 , SQFT=112333 , Year_built=1234 , Parking_spot=0 , Days_on_market=1 , Status='Active' , Agency='222222'  where id=633
+
